@@ -8,9 +8,23 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        "home-bg": "url('/assets/home_bg.svg')",
+      },
+      fontFamily: {
+        poppins: "var(--font-poppins)",
+        oswald: "var(--font-oswald)",
+      },
+      colors: {
+        blue: "#17ABFF",
+        darkBlue: "#00357B",
+        customWhite: "#FCFCFC",
+        lightGray: "#E7EBEF",
+        lightBlue: "#98C5E8",
+        lightCyan: "#F4F9FF",
+        footerBg: "#091D41",
+      },
+      boxShadow: {
+        custom: "0px 14px 34px -10px rgba(126, 126, 126, 0.35)",
       },
     },
   },
