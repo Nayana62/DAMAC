@@ -12,7 +12,9 @@ export default function HeroSection() {
 
   return (
     <div className="w-screen h-[122vh] sm:h-screen bg-no-repeat bg-home-bg-sm sm:bg-home-bg bg-cover bg-center">
+      {/* Header */}
       <nav className="xl:max-w-[1250px] px-10 xl:px-0 m-auto h-24 sm:h-36 flex justify-between items-center relative">
+        {/* Left nav */}
         <div className="flex items-center">
           <Image
             width={165}
@@ -22,6 +24,7 @@ export default function HeroSection() {
             className="w-[111px] h-[14px] sm:w-[165px] sm:h-[20px]"
           />
         </div>
+        {/* Right nav with hamburger menu */}
         <button
           type="button"
           className={`block sm:hidden tham tham-e-squeeze text-customWhite tham-w-6 ${
@@ -55,7 +58,9 @@ export default function HeroSection() {
           </div>
         )}
       </nav>
+
       <div className="max-w-[1250px] px-10 xl:px-0 m-auto h-[calc(100vh-9rem)] flex flex-col sm:flex-row items-start justify-between py-5 sm:py-20">
+        {/* Hero left section */}
         <div className="max-w-[400px] sm:max-w-[470px]">
           <h1 className="text-4xl sm:text-5xl font-oswald font-medium text-customWhite uppercase mb-2 sm:mb-4">
             Harbour Lights <br /> de{" "}
@@ -77,6 +82,7 @@ export default function HeroSection() {
             </p>
           </div>
         </div>
+        {/* Hero right section */}
         <div className="w-[280px] sm:w-[300px] h-[320px] backdrop-blur-md rounded-lg mt-8 sm:mt-0 flex flex-col bg-[#5790BE1F] text-customWhite">
           <div className="px-10 pt-10 sm:pt-12 flex-grow">
             <p className="font-normal text-[13px] leading-[19.5px] tracking-[0.15em]">

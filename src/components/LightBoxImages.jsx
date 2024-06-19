@@ -24,6 +24,7 @@ const LightBoxImages = () => {
 
   return (
     <div className="w-full">
+      {/* Large Image */}
       <div className="w-full h-[222px] md:h-[494px] relative my-3 md:my-5">
         <div className="absolute inset-0">
           <a data-fancybox="gallery" href={images[0].src}>
@@ -36,6 +37,7 @@ const LightBoxImages = () => {
             />
           </a>
         </div>
+        {/* Left and right arrow buttons */}
         <div>
           <div className="absolute w-[34px] h-[34px] top-1/2 left-4 pointer-events-none transform -translate-y-1/2 bg-customWhite text-xl rounded-full shadow-md flex justify-center items-center">
             <Image
@@ -55,6 +57,7 @@ const LightBoxImages = () => {
           </div>
         </div>
       </div>
+      {/* small for images */}
       <div className="w-full flex gap-1 lg:gap-0 justify-normal lg:justify-between">
         {images.slice(1).map((image) => (
           <div key={image}>

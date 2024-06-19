@@ -25,6 +25,7 @@ export default function FeaturesSection() {
         opulent seafront lifestyle. Its maritime-inspired amenities provide an
         unmatched seaside experience, offering a life of tranquility and bliss.
       </p>
+      {/* Circular Image cards */}
       <CircularImages />
       <div className="w-full flex justify-end my-6 md:my-4">
         <p className=" text-[12px] font-light leading-5 md:leading-[47px] tracking-[0.03em] text-[#686868]">
@@ -33,6 +34,7 @@ export default function FeaturesSection() {
           <span className="underline cursor-pointer">Source 2</span>
         </p>
       </div>
+      {/* Buttons */}
       <div className="w-full flex justify-end gap-4">
         <button
           onClick={() => setShowImages("exteriors")}
@@ -55,6 +57,7 @@ export default function FeaturesSection() {
           Interiors
         </button>
       </div>
+      {/* Light Box Images section */}
       <LightBoxImages />
     </div>
   );
