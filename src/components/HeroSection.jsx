@@ -11,7 +11,7 @@ export default function HeroSection() {
   };
 
   return (
-    <div className="w-screen h-[130vh] sm:h-screen bg-no-repeat bg-home-bg-sm sm:bg-home-bg bg-cover bg-center">
+    <div className="w-screen h-[122vh] sm:h-screen bg-no-repeat bg-home-bg-sm sm:bg-home-bg bg-cover bg-center">
       <nav className="xl:max-w-[1250px] px-10 xl:px-0 m-auto h-24 sm:h-36 flex justify-between items-center relative">
         <div className="flex items-center">
           <Image
