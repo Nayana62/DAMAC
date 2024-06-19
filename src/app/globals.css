@@ -3,3 +3,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.tham-inner,
+.tham-inner:before,
+.tham-inner:after {
+  background-color: white;
+}

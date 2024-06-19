@@ -8,7 +8,8 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        "home-bg": "url('/assets/home_bg.svg')",
+        "home-bg": "url('/assets/home.jpg')",
+        "home-bg-sm": "url('/assets/home-sm.jpg')",
       },
       fontFamily: {
         poppins: "var(--font-poppins)",
@@ -27,6 +28,13 @@ module.exports = {
         custom: "0px 14px 34px -10px rgba(126, 126, 126, 0.35)",
       },
     },
+    screens: {
+      sm: "640px",
+      md: "768px",
+      lg: "1024px",
+      xl: "1280px",
+      "2xl": "1536px",
+    },
   },
-  plugins: [],
+  plugins: [require("tailwind-hamburgers")],
 };

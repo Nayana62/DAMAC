@@ -24,7 +24,7 @@ const ScrollImages = ({ images }) => {
 
   return (
     <div className="relative">
-      <div className="flex items-center justify-center w-full h-[494px] overflow-x-auto">
+      <div className="flex items-center justify-center w-full h-[222px] md:h-[494px] overflow-x-auto">
         {images.map((image, index) => (
           <div
             key={image}
