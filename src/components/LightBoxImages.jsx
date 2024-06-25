@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import { Fancybox as NativeFancybox } from "@fancyapps/ui";
 import "@fancyapps/ui/dist/fancybox/fancybox.css";
 
@@ -68,6 +68,7 @@ const LightBoxImages = () => {
                 height={200}
                 src={image.src}
                 alt={image.alt}
+                className="rounded-lg"
               />
             </a>
           </div>

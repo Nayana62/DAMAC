@@ -13,7 +13,7 @@ export default function HeroSection() {
   return (
     <div className="w-screen h-[122vh] sm:h-screen bg-no-repeat bg-home-bg-sm sm:bg-home-bg bg-cover bg-center">
       {/* Header */}
-      <nav className="xl:max-w-[1250px] px-10 xl:px-0 m-auto h-24 sm:h-36 flex justify-between items-center relative">
+      <nav className="xl:max-w-[1250px] px-5 xl:px-0 m-auto h-24 sm:h-36 flex justify-between items-center relative">
         {/* Left nav */}
         <div className="flex items-center">
           <Image
@@ -21,7 +21,7 @@ export default function HeroSection() {
             height={20}
             src="/assets/logo.svg"
             alt="logo"
-            className="w-[111px] h-[14px] sm:w-[165px] sm:h-[20px]"
+            className="w-[100] h-[13px] sm:w-[165px] sm:h-[20px]"
           />
         </div>
         {/* Right nav with hamburger menu */}
@@ -59,7 +59,7 @@ export default function HeroSection() {
         )}
       </nav>
 
-      <div className="max-w-[1250px] px-10 xl:px-0 m-auto h-[calc(100vh-9rem)] flex flex-col sm:flex-row items-start justify-between py-5 sm:py-20">
+      <div className="max-w-[1250px] px-5 xl:px-0 m-auto h-fit md:h-[calc(100vh-9rem)] flex flex-col sm:flex-row items-start justify-between  sm:py-20">
         {/* Hero left section */}
         <div className="max-w-[400px] sm:max-w-[470px]">
           <h1 className="text-4xl sm:text-5xl font-oswald font-medium text-customWhite uppercase mb-2 sm:mb-4">
@@ -69,13 +69,13 @@ export default function HeroSection() {
           <h3 className="text-customWhite text-[18px] sm:text-[25px] font-bold leading-[25px] sm:leading-[33px]">
             1, 2 & 3 Bedrooms Seaside Apartments in Dubai Maritime City
           </h3>
-          <div className="w-[280px] sm:w-[300px] h-[40px] text-lightGray bg-[#00000042] px-3 flex items-center mt-5 sm:mt-14 border-l-[3px] border-blue">
+          <div className="w-[290px] sm:w-[300px] h-[40px] text-lightGray bg-[#00000042] px-3 flex items-center mt-5 sm:mt-14 border-l-[3px] border-blue">
             <p className=" text-[14px] font-normal leading-[15px]">
               Rental Returns of{" "}
               <span className="text-[16px] font-semibold">UPTO 11%**</span>
             </p>
           </div>
-          <div className="w-[280px] sm:w-[300px] h-[40px] text-lightGray bg-[#00000042] px-3 flex items-center mt-4 border-l-[3px] border-blue">
+          <div className="w-[290px] sm:w-[300px] h-[40px] text-lightGray bg-[#00000042] px-3 flex items-center mt-4 border-l-[3px] border-blue">
             <p className=" text-[14px] font-normal leading-[15px]">
               Capital Appreciation of{" "}
               <span className="text-[16px] font-semibold">UPTO 32%**</span>
@@ -83,7 +83,7 @@ export default function HeroSection() {
           </div>
         </div>
         {/* Hero right section */}
-        <div className="w-[280px] sm:w-[300px] h-[320px] backdrop-blur-md rounded-lg mt-8 sm:mt-0 flex flex-col bg-[#5790BE1F] text-customWhite">
+        <div className="w-[290px] sm:w-[300px] h-[320px] backdrop-blur-md rounded-lg mt-8 sm:mt-0 flex self-center sm:self-auto flex-col bg-[#5790BE1F] text-customWhite">
           <div className="px-10 pt-10 sm:pt-12 flex-grow">
             <p className="font-normal text-[13px] leading-[19.5px] tracking-[0.15em]">
               PRICING STARTS FROM
@@ -98,7 +98,7 @@ export default function HeroSection() {
               GET A PRESENTATION
             </button>
           </div>
-          <div className="w-full h-[60px] px-4 sm:px-6 rounded-b-lg bg-[#5790BE1F] border-t border-[#0000004D] flex items-center justify-center text-[12px] sm:text-[13px] font-normal  leading-[17px] text-lightBlue">
+          <div className="w-full h-[60px] px-5 sm:px-6 rounded-b-lg bg-[#5790BE1F] border-t border-[#0000004D] flex items-center justify-center text-[12px] sm:text-[13px] font-normal  leading-[17px] text-lightBlue">
             Get an Expert’s Presentation of Real Estate in Dubai for Life and
             investment
           </div>

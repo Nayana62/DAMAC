@@ -3,7 +3,7 @@ import React from "react";
 
 export default function PlansSection() {
   return (
-    <div className="w-full h-[170px] bg-lightCyan overflow-x-auto flex justify-normal md:justify-center items-center px-5 lg:px-0 gap-12 lg:gap-40">
+    <div className="w-full h-[170px] bg-lightCyan flex justify-center items-center px-5 lg:px-0 gap-12 lg:gap-40">
       <div className="flex items-center justify-center flex-col">
         <Image
           loading="lazy"
