@@ -65,7 +65,7 @@ const LightBoxImages = () => {
               <Image
                 loading="lazy"
                 width={300}
-                height={200}
+                height={150}
                 src={image.src}
                 alt={image.alt}
                 className="rounded-lg"
